@@ -43,7 +43,7 @@ var map;
         console.log(markered);
       }
 $(function () {
-     $.getJSON("http:s//ayresmic.github.io/map1/IndependentVet2.json", function (data) {
+     $.getJSON("https://ayresmic.github.io/map1/IndependentVet2.json", function (data) {
          $(data.vets).each(function (index, value) {
              var latLng = new google.maps.LatLng(value.Lat, value.Long);
              var marker = new google.maps.Marker({
